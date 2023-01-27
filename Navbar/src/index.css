@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Vazir';
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(78, 77, 77);
+  padding: 30px 50px;
+  position: relative;
+}
+
+.nav-links {
+  transition: all 0.5s ease;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  /* transition: all 0.5s ease; */
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.list li a {
+  padding: 5px;
+  margin: 0 10px;
+  color: white;
+}
+
+.social-list li a {
+  padding: 5px;
+  margin: 0 10px;
+  color: white;
+}
+
+.social-list li a:hover {
+  color: rgb(53, 18, 135);
+}
+
+.list li a:hover {
+  color: red;
+}
+
+@media screen and (min-width : 992px) {
+  .nav-links {
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width : 991px) {
+  .nav-btn {
+    display: block;
+  }
+
+  .nav-links {
+    width: auto;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    height: 0px;
+    overflow: hidden;
+    /* background-color: blue; */
+  }
+
+
+  .nav-links .list {
+    flex-direction: column;
+  }
+
+  .nav-links .list li {
+    margin: 15px 0;
+  }
+
+  .nav-links .list li a {
+    color: black;
+
+  }
+
+  .nav-social {
+    display: none;
+  }
+
+  .active {
+    height: auto;
+  }
+}

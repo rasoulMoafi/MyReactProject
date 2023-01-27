@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Vazir' !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background: rgb(118, 162, 208);
+}
+
+.section-center {
+  width: 600px;
+
+}
+
+.section-center h4 {
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+.lorem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-center input {
+  margin-right: 5px;
+  border: 1px solid rgb(245, 232, 232);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.section-center button {
+  width: 100%;
+  border: none;
+  background: rgb(23, 22, 22);
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.section-center button:hover {
+  background-color: #c00;
+  color: black;
+}
+
+.section-center p {
+  margin-top: 40px;
+}

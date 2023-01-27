@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Vazir';
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(213, 222, 173);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-fields {
+  width: 330px;
+  height: 55px;
+  background: rgb(213, 222, 173);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-fields input {
+  width: 90%;
+  background-color: antiquewhite;
+  border: hidden;
+  font-size: 18px;
+  padding: 5px;
+  direction: ltr;
+}
+
+.input-fields span {
+  cursor: pointer;
+}
