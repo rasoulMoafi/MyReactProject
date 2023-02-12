@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Vazir';
+}
+
+.App{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:100px 0 0 0;
+}
+
+.form-group label{
+  display: block;
+  width: 100%;
+}
+.form-group input{
+  display: block;
+  width: 150%;
+}
+
+.output{
+  width: 40vw;
+  height: 400px;
+  background-color: crimson;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.output p {
+  width: 30vw;
+  padding: 10px 5px;
+  background-color: #555;
+  color: bisque;
+}

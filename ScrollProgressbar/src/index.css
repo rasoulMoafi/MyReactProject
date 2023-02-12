@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir";
+}
+
+.Content {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* background-color: rgb(127, 127, 127); */
+}
+
+.Content p {
+  margin: 15px 0;
+}
+
+.container {
+  background: #111;
+  padding: 20px 0;
+}
+.container ul {
+  margin: 15px auto;
+  width: 500px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container ul li {
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.wrapper {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+.progressbar {
+  width: 100%;
+  height: 12px;
+  background-color: #999;
+  z-index: 1;
+}
+
+.progressbarMain {
+  width: 0;
+  height: 100%;
+  background: blue;
+}

@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+  height: 90vh;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.container h2 {
+  width: 100%;
+}
+
+.reviews {
+  width: 30%;
+  /* background-color: red; */
+  text-align: center;
+  height: 350px;
+  position: relative;
+}
+.reviews img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.author {
+  color: #333;
+  font-size: 16px;
+}
+.job {
+  color: crimson;
+}
+.info {
+  color: #777;
+}
+
+button {
+  color: crimson;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.review-button {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  transform: scale(2);
+}
+
+.review-button button {
+  margin: 0 10px;
+}
+
+.random-btn {
+  position: absolute;
+  bottom: 20px;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  transform: translateX(50%);
+}

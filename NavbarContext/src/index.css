@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Vazir';
+}
+
+.sidebar{
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  background-color: #c92c6d;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+
+.sidebar .sidebar-header{
+  text-align: center;
+}
+.sidebar .sidebar-header .close-btn{
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.sidebar .list{
+  width: 50%;
+  margin: 30px auto;
+}
+
+.sidebar .list li{
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar .list li a{
+  color: #f0eeed;
+  font-size: 15px;
+}
+
+.sidebar-button{
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background: #c92c6d;
+  cursor: pointer;
+}
+
+.sidebar.show-sidebar {
+  transform: translateX(0);
+}

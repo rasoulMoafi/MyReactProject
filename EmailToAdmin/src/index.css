@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir";
+  background: linear-gradient(rgba(20, 179, 177, 1), rgba(66, 9, 119, 1));
+  height: 100vh;
+}
+.form-control {
+  border: none !important;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}

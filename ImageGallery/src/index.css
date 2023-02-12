@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir";
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  align-items: center;
+}
+
+.App input {
+  width: 40%;
+  margin: 0 20px 0 100px;
+  border-radius: 5px;
+  padding: 8px 0;
+}
+
+.App .btn {
+  background-color: black;
+  color: red;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 31%;
+  height: 300px;
+  margin: 15px 0;
+  /* object-fit: cover; */
+}

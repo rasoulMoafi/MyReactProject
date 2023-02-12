@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir";
+  background-color: aqua !important;
+  text-align: center !important;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 150px 50px 150px;
+  padding: 30px;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a.active {
+  color: #c00;
+}
+a.link {
+  border-bottom: 1px solid orange;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.products li {
+  width: 21%;
+}
+
+.products li a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form input {
+  width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+form .btn {
+  margin-top: 15px;
+  background-color: #888;
+  padding: 10px;
+}
