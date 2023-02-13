@@ -4,7 +4,7 @@ My react demo projects
 
 ## Cards
 
-https://seyedrasoulmoafi.github.io/MyReactProjects/Cards/build/
+https://seyedrasoulmoafi.github.io/MyReactProject/Cards/build/
 
 ## Admin panel
 
