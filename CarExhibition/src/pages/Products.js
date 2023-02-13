@@ -37,7 +37,7 @@ const Products = () => {
             <>
               <li key={id}>
                 <h6>{title}</h6>
-                <img src={images} />
+                <img src={images[0]} />
                 <Link to={`/products/${id}`} className="product-link">
                   توضیحات محصول
                 </Link>

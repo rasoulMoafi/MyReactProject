@@ -19,7 +19,6 @@ function App() {
     
   }
   const [mode, setMode] = useState(getMode());
-  console.log(mode);
   // =======inja meqdare mode ro ba shenase "mode" dar localstorage zakhire mikone=========
   useEffect(() => {
     localStorage.setItem("mode",JSON.stringify(mode))
