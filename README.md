@@ -2,9 +2,9 @@
 
 My react demo projects
 
-## Card
+## Cards
 
-https://seyedrasoulmoafi.github.io/MyReactProjects/Card/build/
+https://seyedrasoulmoafi.github.io/MyReactProjects/Cards/build/
 
 ## Admin panel
 
