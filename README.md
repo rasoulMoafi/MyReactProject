@@ -24,12 +24,12 @@ https://seyedrasoulmoafi.github.io/MyReactProject/FixStyleWithSlider/build/
 
 ## Make Lorem
 
-https://seyedrasoulmoafi.github.io/MyReactProject/MakeLorem/build
+https://seyedrasoulmoafi.github.io/MyReactProject/MakeLorem/build/
 
 
 ## Scroll Progressbar
 
-https://seyedrasoulmoafi.github.io/MyReactProject/ScrollProgressbar/build
+https://seyedrasoulmoafi.github.io/MyReactProject/ScrollProgressbar/build/
 ## Cards
 
 https://seyedrasoulmoafi.github.io/MyReactProject/Cards/build/
