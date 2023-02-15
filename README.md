@@ -5,21 +5,21 @@ My react demo projects
 
 ## Change Theme Of App
 
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/ChangeThemeOfApp/build/
+https://seyedrasoulmoafi.github.io/MyReactProject/ChangeThemeOfApp/build/
 
 
 ## Email To Admin
 
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/EmailToAdmin/build/
+https://seyedrasoulmoafi.github.io/MyReactProject/EmailToAdmin/build/
 
 ## List Of Books
 
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/ListOfBooks/build/
+https://seyedrasoulmoafi.github.io/MyReactProject/ListOfBooks/build/
 
 
 ## Fix Style With Slider
 
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/FixStyleWithSlider/build/
+https://seyedrasoulmoafi.github.io/MyReactProject/FixStyleWithSlider/build/
 
 
 ## Make Lorem
