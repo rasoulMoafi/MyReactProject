@@ -2,26 +2,23 @@
 
 My react demo projects
 
+
+## Change Theme Of App
+
+https://seyedrasoulmoafi.github.io/MyFrontEndProjects/ChangeThemeOfApp/build/
+
+
+## Email To Admin
+
+https://seyedrasoulmoafi.github.io/MyFrontEndProjects/EmailToAdmin/build/
+
+## List Of Books
+
+https://seyedrasoulmoafi.github.io/MyFrontEndProjects/ListOfBooks/build/
+## Fix Style With Slider
+
+https://seyedrasoulmoafi.github.io/MyFrontEndProjects/FixStyleWithSlider/build/
 ## Cards
 
 https://seyedrasoulmoafi.github.io/MyReactProject/Cards/build/
 
-## Admin panel
-
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/admin/
-
-## Clothes store
-
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/clothes_store/
-
-## Animal support
-
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/animal-support/
-
-## Sofa store
-
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/sofa_store/
-
-## Coffee shop
-
-https://seyedrasoulmoafi.github.io/MyFrontEndProjects/coffee-shop/
