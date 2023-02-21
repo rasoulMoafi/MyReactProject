@@ -3,7 +3,7 @@
          {
           "id": "1",
           "title": "موبایل سامسونگ",
-          "image": "/images/mobile1.jpg",
+          "image": "images/mobile1.jpg",
           "price": 18000000,
           "availableBrand": ["samsung"],
           "qty": 1
@@ -11,7 +11,7 @@
          {
           "id": "2",
           "title": "موبایل آیفون",
-          "image": "/images/mobile2.jpg",
+          "image": "images/mobile2.jpg",
           "price": 68000000,
           "availableBrand": ["iphone"],
           "qty": 1
@@ -19,7 +19,7 @@
          {
           "id": "3",
           "title": "موبایل موتوروالا",
-          "image": "/images/mobile3.jpg",
+          "image": "images/mobile3.jpg",
           "price": 4000000,
           "availableBrand": ["huawei"],
           "qty": 1
@@ -27,7 +27,7 @@
          {
           "id": "4",
           "title": "موبایل بلک بری",
-          "image": "/images/mobile4.jpg",
+          "image": "images/mobile4.jpg",
           "price": 7800000,
           "availableBrand": ["blackberry"],
           "qty": 1
@@ -35,7 +35,7 @@
          {
           "id": "5",
           "title": "موبایل ال جی",
-          "image": "/images/mobile5.jpg",
+          "image": "images/mobile5.jpg",
           "price": 9200000,
           "availableBrand": ["lg"],
           "qty": 1
@@ -44,7 +44,7 @@
          {
           "id": "6",
           "title": "موبایل سونی",
-          "image": "/images/mobile6.jpg",
+          "image": "images/mobile6.jpg",
           "price": 10400000,
           "availableBrand": ["sony"],
           "qty": 1
