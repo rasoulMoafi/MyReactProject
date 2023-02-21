@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MyReactProject/MobileStore/build/static/css/main.21258c7a.css",
-    "main.js": "/MyReactProject/MobileStore/build/static/js/main.6baf3e96.js",
+    "main.js": "/MyReactProject/MobileStore/build/static/js/main.404f8833.js",
     "static/media/Yekan.ttf": "/MyReactProject/MobileStore/build/static/media/Yekan.012789e6e9f8b9a4929f.ttf",
     "static/media/Yekan.eot": "/MyReactProject/MobileStore/build/static/media/Yekan.5d51672647d5847cbe38.eot",
     "static/media/Yekan.woff": "/MyReactProject/MobileStore/build/static/media/Yekan.dc56979c1186705f56ca.woff",
     "static/media/Yekan.woff2": "/MyReactProject/MobileStore/build/static/media/Yekan.c452ae6be5b6517a6953.woff2",
     "index.html": "/MyReactProject/MobileStore/build/index.html",
     "main.21258c7a.css.map": "/MyReactProject/MobileStore/build/static/css/main.21258c7a.css.map",
-    "main.6baf3e96.js.map": "/MyReactProject/MobileStore/build/static/js/main.6baf3e96.js.map"
+    "main.404f8833.js.map": "/MyReactProject/MobileStore/build/static/js/main.404f8833.js.map"
   },
   "entrypoints": [
     "static/css/main.21258c7a.css",
-    "static/js/main.6baf3e96.js"
+    "static/js/main.404f8833.js"
   ]
 }

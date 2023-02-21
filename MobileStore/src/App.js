@@ -1,17 +1,16 @@
+import ReactDOM from 'react-dom/client';
 import React from "react";
 import Home from "./components/Home";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 
 
 
 function App() {
   return (
     <>
-      <Router>
         <Routes>
-          <Route path="*" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
-      </Router>
     </>
   )
 }
