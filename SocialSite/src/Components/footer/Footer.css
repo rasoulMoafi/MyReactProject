@@ -1,0 +1,136 @@
+#footer {
+     width: 100%;
+     background-color: #3a1078;
+     padding: 50px 0;
+     margin-top: 30px;
+}
+
+.footer {
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 0 0 0;
+}
+
+.footer .quick-access,
+.support,
+.contact {
+     color: #fff;
+}
+
+.footer .footer-links {
+     padding-top: 15px;
+     display: flex;
+     flex-direction: column;
+}
+
+.footer .footer-links a {
+     color: #fff;
+     transition: all 0.5s ease-in-out;
+}
+
+.footer .footer-links a:hover {
+     color: #f94a29;
+}
+
+.footer-contact {
+     padding-top: 15px;
+     display: flex;
+     flex-direction: column;
+}
+
+.footer .footer-contact p {
+     color: #fff;
+     transition: all 0.5s ease-in-out;
+     cursor: pointer;
+}
+
+.footer .footer-contact p:hover {
+     color: #f94a29;
+}
+
+
+.footer-logo {
+     display: flex;
+}
+
+.footer-logo .logo-text {
+     /* position: absolute; */
+     margin-left: 5px;
+
+}
+
+.footer-logo .logo-text span {
+     color: #f94a29;
+     font-size: 50px;
+     font-weight: 900;
+
+}
+
+.logo-social {
+     color: #fff;
+     font-size: 40px;
+     font-weight: 700;
+     top: 5px;
+     font-style: italic;
+     padding-top: 5px;
+
+}
+
+
+.footer-copyright {
+     padding: 60px 0 10px 0;
+     text-align: center;
+     color: #fff;
+     background-color: #3a1078;
+}
+
+@media screen and (max-width:768px) {
+
+     .footer {
+          flex-wrap: wrap;
+     }
+
+     .footer .quick-access,
+     .support,
+     .contact {
+          width: 33%;
+     }
+
+     .footer-logo {
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          margin-top: 30px;
+     }
+}
+
+@media screen and (max-width:500px) {
+
+     .footer .quick-access,
+     .support {
+          width: 50%;
+          text-align: center;
+          margin-bottom: 30px;
+     }
+
+     .footer .contact {
+          width: 100%;
+          text-align: center;
+          position: relative;
+          padding: 15px;
+     }
+
+     .footer .contact::before {
+          content: "";
+          width: 80%;
+          height: 1px;
+          background: #fff;
+          position: absolute;
+          top: 0;
+          right: 50%;
+          transform: translate(50%, 50%);
+     }
+}

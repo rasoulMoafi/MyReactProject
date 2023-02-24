@@ -1,0 +1,173 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.header-right h1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.header-right h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 1px;
+    background: #fff;
+}
+
+.header-right h1 .firstspan {
+    font-size: 35px;
+}
+
+.header-right P {
+    margin-top: 10px;
+}
+
+.header-btn {
+    margin-top: 50px;
+    display: flex;
+}
+
+.header-btn .btn-dark {
+    padding: 8px 15px;
+    outline: 1px solid #f94a29;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-weight: 800;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-btn .btn-dark:hover {
+    color: #f94a29;
+}
+
+.header-btn .btn-light {
+    padding: 8px 15px;
+    background-color: #f94a29;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-weight: 800;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-btn .btn-light:hover {
+    color: #f94a29;
+    background-color: inherit;
+}
+
+.header-left {
+    width: 45%;
+    margin: 40px 40px 0 0;
+}
+
+.header-left img {
+    width: 70%;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+
+    .header-right h1 {
+        font-size: 13px;
+    }
+
+    .header-right h1 .firstspan {
+        font-size: 15px;
+
+    }
+
+
+
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-left img {
+        width: 50%;
+    }
+
+    .header-right p {
+        font-size: 9px;
+    }
+
+    .header-btn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .header-btn .btn-dark,
+    .header-btn .btn-light {
+        margin: 5px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+}
+
+.floating-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: aqua;
+    padding: 15px 0;
+    border-radius: 50%;
+
+}
+
+.floating-icon svg {
+    animation: moving-mouse 1.5s infinite;
+}
+
+@keyframes moving-mouse {
+    0% {
+        transform: translateY(-12px);
+    }
+
+    25% {
+        transform: translateY(-6px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(6px);
+    }
+
+    100% {
+        transform: translateY(12px);
+    }
+}

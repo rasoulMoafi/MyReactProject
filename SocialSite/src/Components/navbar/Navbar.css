@@ -1,0 +1,156 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    margin-top: 30px;
+    display: flex;
+}
+
+.nav-link li {
+    margin: 0 10px;
+}
+
+.nav-link li a {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.nav-link li a:hover {
+    color: #f94a29;
+}
+
+.nav-link li a:focus {
+    padding: 4px;
+    border: 1px solid #f94a29;
+    border-radius: 5px;
+    color: #f94a29;
+}
+
+
+
+
+.nav-link.mobile {
+    margin-top: 30px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    display: none;
+    border: 1px solid #fff;
+    width: 80%;
+    text-align: center;
+    animation: flipping 1s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes flipping {
+    0% {
+        transform: translateY(300px);
+
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+.nav-link.mobile li {
+    margin: 20px 0;
+    border-bottom: 1px solid #fff;
+
+}
+
+.nav-link.mobile li:last-child {
+    border-bottom: none;
+}
+
+.nav-link.mobile li a {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.nav-link.mobile li a:hover {
+    color: #f94a29;
+}
+
+.nav-link.mobile li a:focus {
+    padding: 4px;
+    border-radius: 5px;
+    color: #f94a29;
+    transform: scale(1.2);
+}
+
+
+
+.logo {
+    margin-top: 10px;
+    display: flex;
+}
+
+.logo .logo-text {
+    /* position: absolute; */
+    margin-left: 5px;
+
+}
+
+.logo .logo-text span {
+    color: #f94a29;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.logo-social {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    top: 5px;
+    font-style: italic;
+    padding-top: 5px;
+
+}
+
+.menu-icon {
+    display: none;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        width: 80% !important;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .nav-link.mobile {
+        display: block;
+    }
+
+}
