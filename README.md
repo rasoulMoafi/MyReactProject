@@ -12,6 +12,10 @@ https://seyedrasoulmoafi.github.io/MyReactProject/MobileStore/build/
 
 https://seyedrasoulmoafi.github.io/MyReactProject/SocialSite/build/
 
+## Social Site
+
+https://seyedrasoulmoafi.github.io/MyReactProject/ClothesStore(Redux)/build/
+
 ## Change Theme Of App
 
 https://seyedrasoulmoafi.github.io/MyReactProject/ChangeThemeOfApp/build/
