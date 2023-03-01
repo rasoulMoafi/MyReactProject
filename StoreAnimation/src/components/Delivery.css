@@ -1,0 +1,113 @@
+.delivery-detail {
+    height: 400px;
+    background: #060043;
+}
+
+.delivery-detail .deliverybtn {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery-detail .deliverybtn .sendbtn {
+    font-size: 15px;
+    margin: 0 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px 5px;
+    background: #e90064;
+    color: #c0eef2;
+}
+
+.delivery-detail .deliverybtn .getchbtn {
+    font-size: 15px;
+    margin: 0 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px 5px;
+    background: #e90064;
+    color: #c0eef2;
+}
+
+.delivery-detail .delivery-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.delivery-items .store-img {
+    width: 15%;
+}
+
+.delivery-detail .delivery-items .shoppingpackage {
+    width: 15%;
+}
+
+.delivery-detail .delivery-items .shoppingpackage .shopping-img {
+    width: 100%;
+}
+
+.delivery-detail .delivery-items .deliveryBoy {
+    width: 13%;
+    transform: translateX(-150%) rotateY(180deg);
+}
+
+.delivery-detail .delivery-items .deliveryBoy#moveforward {
+    width: 13%;
+    transform: translateX(150%);
+    animation: rotatemoveforward 3s ease-in-out;
+
+}
+
+.delivery-detail .delivery-items .backward {
+    width: 13%;
+    transform: translateX(-150%) rotateY(180deg);
+    animation: rotatemovebackward 3s ease-in-out;
+}
+
+@keyframes rotatemoveforward {
+    0% {
+        transform: rotateY(180deg) translateX(-150%);
+    }
+
+    1% {
+        transform: rotateY(0deg) translateX(-150%);
+    }
+
+    100% {
+        transform: rotateY(0deg) translateX(150%);
+    }
+}
+
+@keyframes rotatemovebackward {
+    0% {
+        transform: rotateY(0deg) translateX(-150%);
+    }
+
+    1% {
+        transform: rotateY(180deg) translateX(-150%);
+    }
+
+    100% {
+        transform: rotateY(180deg) translateX(+150%);
+    }
+}
+
+
+.delivery-detail .delivery-items .shoppingpackage .shopping-img {
+    position: relative;
+}
+
+.delivery-detail .delivery-items .shoppingpackage .parcel-img {
+    position: absolute;
+    color: #fff;
+    width: 7%;
+}
