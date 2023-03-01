@@ -15,7 +15,7 @@ https://seyedrasoulmoafi.github.io/MyReactProject/MobileStore/build/
 
 https://seyedrasoulmoafi.github.io/MyReactProject/SocialSite/build/
 
-## Social Site
+## clothes store
 
 https://seyedrasoulmoafi.github.io/MyReactProject/ClothesStore(Redux)/build/
 
