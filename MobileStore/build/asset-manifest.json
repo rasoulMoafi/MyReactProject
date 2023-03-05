@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cea288e1.css",
+    "main.js": "./static/js/main.6efd9927.js",
+    "static/media/Yekan.ttf": "./static/media/Yekan.012789e6e9f8b9a4929f.ttf",
+    "static/media/Yekan.eot": "./static/media/Yekan.5d51672647d5847cbe38.eot",
+    "static/media/Yekan.woff": "./static/media/Yekan.dc56979c1186705f56ca.woff",
+    "static/media/Yekan.woff2": "./static/media/Yekan.c452ae6be5b6517a6953.woff2",
+    "index.html": "./index.html",
+    "main.cea288e1.css.map": "./static/css/main.cea288e1.css.map",
+    "main.6efd9927.js.map": "./static/js/main.6efd9927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea288e1.css",
+    "static/js/main.6efd9927.js"
+  ]
+}
