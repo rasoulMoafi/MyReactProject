@@ -67,7 +67,7 @@ const ProductCard = ({ product }) => {
       shadow="lg"
       position="relative"
     >
-      {product.isNew && (
+      {product.productIsNew && (
         <Circle
           size="10px"
           position="absolute"
@@ -99,7 +99,7 @@ const ProductCard = ({ product }) => {
           Sold Out
         </Badge>
       )}
-      {product.isNew && (
+      {product.productIsNew && (
         <Badge
           rounded="full"
           fontSize="0.8rem"
@@ -124,7 +124,10 @@ const ProductCard = ({ product }) => {
         </Link>
       </Flex>
       <Flex justifyContent="space-between" alignItems="center" py="2">
-        <Rating rating={product.rating} numberOfReviews={product.numReviews} />
+        <Rating
+          rating={product.rating}
+          numberOfReviews={product.numberOfReviews}
+        />
       </Flex>
       <Flex justifyContent="space-between">
         <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
